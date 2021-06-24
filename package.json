@@ -2,7 +2,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint --fix src/*.{js,ts,vue} *.js"
   },
@@ -11,12 +11,14 @@
     "vue-router": "~4.0.10"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "~4.0.3",
     "@typescript-eslint/eslint-plugin": "~4.28.0",
     "@typescript-eslint/parser": "~4.28.0",
     "@vitejs/plugin-vue": "~1.2.3",
     "@vue/compiler-sfc": "~3.0.5",
     "@vue/eslint-config-prettier": "~6.0.0",
     "@vue/eslint-config-typescript": "~7.0.0",
+    "autoprefixer": "~10.2.6",
     "eslint": "~7.29.0",
     "eslint-plugin-prettier": "~3.4.0",
     "eslint-plugin-vue": "~7.11.1",

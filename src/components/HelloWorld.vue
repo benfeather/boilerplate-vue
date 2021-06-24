@@ -50,8 +50,9 @@
 	})
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 	$vue-primary: #42b983;
+	$vue-secondary: #304455;
 
 	a {
 		color: $vue-primary;
@@ -66,6 +67,6 @@
 		background-color: #eee;
 		padding: 2px 4px;
 		border-radius: 4px;
-		color: #304455;
+		color: $vue-secondary;
 	}
 </style>

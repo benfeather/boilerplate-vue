@@ -24,4 +24,8 @@
 		color: #2c3e50;
 		margin-top: 60px;
 	}
+
+	.unused-class {
+		background-color: red;
+	}
 </style>
